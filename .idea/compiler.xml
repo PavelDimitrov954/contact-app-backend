@@ -1,6 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.22/9c08ea24c6eb714e2d6170e8122c069a0ba9aacf/lombok-1.18.22.jar" />
+          <entry name="$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-panache-common/2.7.3.Final/687086e29f5d243da9dcf846c5ed1ef1d8eea15c/quarkus-panache-common-2.7.3.Final.jar" />
+          <entry name="$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-arc/2.7.3.Final/9b60a3a6464ba1fdd82047ed7edeb2e3eb0fa016/quarkus-arc-2.7.3.Final.jar" />
+          <entry name="$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-core/2.7.3.Final/289e4d758ee93a6569cc8b9d9f817eac40d4a140/quarkus-core-2.7.3.Final.jar" />
+          <entry name="$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/io.quarkus.arc/arc/2.7.3.Final/b4e4494e94d7432476501f88dda89ce4e88c207f/arc-2.7.3.Final.jar" />
+          <entry name="$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/jakarta.enterprise/jakarta.enterprise.cdi-api/2.0.2/58f497f362cd19c2f8842d75c491d270f0600e7f/jakarta.enterprise.cdi-api-2.0.2.jar" />
+          <entry name="$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/jakarta.interceptor/jakarta.interceptor-api/1.2.5/20cbde692c555692ca835fb6ecb4a8c95acbe6e0/jakarta.interceptor-api-1.2.5.jar" />
+          <entry name="$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/jakarta.annotation/jakarta.annotation-api/1.3.5/59eb84ee0d616332ff44aba065f3888cf002cd2d/jakarta.annotation-api-1.3.5.jar" />
+          <entry name="$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/jakarta.inject/jakarta.inject-api/1.0/93164437046e06b4876e069b8e7a321a02f10a2d/jakarta.inject-api-1.0.jar" />
+          <entry name="$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-ide-launcher/2.7.3.Final/461f57ff55a2ca523a991f1ec80d2775282f00bc/quarkus-ide-launcher-2.7.3.Final.jar" />
+          <entry name="$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-development-mode-spi/2.7.3.Final/b49bfa0c876eb39849cf32581f44263574f24b87/quarkus-development-mode-spi-2.7.3.Final.jar" />
+          <entry name="$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/io.smallrye.config/smallrye-config/2.9.1/c867965ddd4bee3effa38b3550d99996ebe7ffe8/smallrye-config-2.9.1.jar" />
+          <entry name="$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.jboss.threads/jboss-threads/3.4.2.Final/496b9194df9f632884ea1144201776be348669e6/jboss-threads-3.4.2.Final.jar" />
+          <entry name="$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-bootstrap-runner/2.7.3.Final/bbf7e4e8ca9de837e8a1f00b78456d4f51283eec/quarkus-bootstrap-runner-2.7.3.Final.jar" />
+          <entry name="$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/io.smallrye.config/smallrye-config-core/2.9.1/ee2c9f6ba9809a3f354d2da6f0e6db8bf8b9d5ce/smallrye-config-core-2.9.1.jar" />
+          <entry name="$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/io.smallrye.common/smallrye-common-expression/1.10.0/1bf39781a8aa40d3d379a5458524714d669bfb67/smallrye-common-expression-1.10.0.jar" />
+          <entry name="$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/io.smallrye.common/smallrye-common-function/1.10.0/7b58bfa065e6c89446cf8480b437a2abd38f8d52/smallrye-common-function-1.10.0.jar" />
+          <entry name="$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/io.smallrye.common/smallrye-common-constraint/1.10.0/77efe7b2f4fb268e833f9cc00853dd2fecdf84b4/smallrye-common-constraint-1.10.0.jar" />
+          <entry name="$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/io.smallrye.config/smallrye-config-common/2.9.1/29b75c1e48de9898d52a53f8e348e34fc75f319f/smallrye-config-common-2.9.1.jar" />
+          <entry name="$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.4.3.Final/c4bd7e12a745c0e7f6cf98c45cdcdf482fd827ea/jboss-logging-3.4.3.Final.jar" />
+          <entry name="$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.jboss.logmanager/jboss-logmanager-embedded/1.0.9/82dca66a02351432a1c567ff3ffae6ebb7a41293/jboss-logmanager-embedded-1.0.9.jar" />
+          <entry name="$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging-annotations/2.2.1.Final/ee3db82d956ee22c4f1f2df9c611e048e79a4a43/jboss-logging-annotations-2.2.1.Final.jar" />
+          <entry name="$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.33/d375aa1b98d34d5ddf73a3f19eaad66e98975b12/slf4j-api-1.7.33.jar" />
+          <entry name="$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.jboss.slf4j/slf4j-jboss-logmanager/1.1.0.Final/5f1c0e3f5082c21f6b4964b97fe5b1d5f8c42f53/slf4j-jboss-logmanager-1.1.0.Final.jar" />
+          <entry name="$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.graalvm.sdk/graal-sdk/21.3.1/d448085d3616ad00b769f8931990978ab61919f1/graal-sdk-21.3.1.jar" />
+          <entry name="$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.wildfly.common/wildfly-common/1.5.4.Final-format-001/d600b29d51306b30b29e7de64f6fedf61beb1808/wildfly-common-1.5.4.Final-format-001.jar" />
+          <entry name="$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-fs-util/0.0.9/af43a8b4da2a2c9119e5280929887445847597a0/quarkus-fs-util-0.0.9.jar" />
+          <entry name="$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.eclipse.microprofile.context-propagation/microprofile-context-propagation-api/1.2/e8efc0f2ab4ec6b31bd8474a4a4d834965e4e8e9/microprofile-context-propagation-api-1.2.jar" />
+          <entry name="$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/jakarta.el/jakarta.el-api/3.0.3/f311ab94bb1d4380690a53d737226a6b879dd4f1/jakarta.el-api-3.0.3.jar" />
+          <entry name="$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/io.smallrye.common/smallrye-common-io/1.10.0/9eb2c74b2bb559aab581fe96f5a0e44bd14aae29/smallrye-common-io-1.10.0.jar" />
+          <entry name="$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/jakarta.ejb/jakarta.ejb-api/3.2.6/3c52a831bfe8118a27ed393234f1d1d3baa50a7c/jakarta.ejb-api-3.2.6.jar" />
+          <entry name="$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/jakarta.transaction/jakarta.transaction-api/1.3.3/c4179d48720a1e87202115fbed6089bdc4195405/jakarta.transaction-api-1.3.3.jar" />
+          <entry name="$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.eclipse.microprofile.config/microprofile-config-api/2.0.1/26fc0aba41ac450ddf86c8d72d58635e89b84feb/microprofile-config-api-2.0.1.jar" />
+          <entry name="$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/io.smallrye.common/smallrye-common-annotation/1.10.0/93a1f603df7aad88b2245ef2130fb2f5bfecb52e/smallrye-common-annotation-1.10.0.jar" />
+          <entry name="$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/io.smallrye.common/smallrye-common-classloader/1.10.0/e9aeff0bc2c7445c79051c33b3176f9579f46c8/smallrye-common-classloader-1.10.0.jar" />
+          <entry name="$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/9.2/81a03f76019c67362299c40e0ba13405f5467bff/asm-9.2.jar" />
+        </processorPath>
+        <module name="ContactsApp.main" />
+      </profile>
+    </annotationProcessing>
     <bytecodeTargetLevel target="17" />
   </component>
 </project>
