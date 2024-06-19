@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+    id 'io.quarkus' version '2.7.3.Final'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'io.quarkus:quarkus-resteasy:2.7.3.Final'
+    implementation 'io.quarkus:quarkus-resteasy-jsonb:2.7.3.Final'
+    implementation 'io.quarkus:quarkus-hibernate-orm-panache:2.7.3.Final'
+    implementation 'io.quarkus:quarkus-jdbc-postgresql:2.7.3.Final'
+    implementation 'io.quarkus:quarkus-elytron-security-properties-file:2.7.3.Final'
+    implementation 'io.quarkus:quarkus-smallrye-context-propagation'
+    implementation 'io.ebean:ebean:12.2.6' // Replace '12.2.6' with the specific version you want to use
+    compileOnly 'org.projectlombok:lombok:1.18.22'
+    annotationProcessor 'org.projectlombok:lombok:1.18.22'
+    testImplementation 'io.quarkus:quarkus-junit5:2.7.3.Final'
+    testImplementation 'io.rest-assured:rest-assured:4.4.0'
+}
+
+quarkus {
+    // No need to set sourceDir and resourceDir explicitly
+}
