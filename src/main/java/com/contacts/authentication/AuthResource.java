@@ -12,10 +12,10 @@ public class AuthResource {
     @Path("/login")
     @PermitAll
     public Response login(@FormParam("username") String username, @FormParam("password") String password) {
-        // Hardcoded credentials
         if ("user".equals(username) && "password".equals(password)) {
-            return Response.ok().build();
+            String token = "your-generated-token"; // This should be a real token in a real application
+            return Response.ok("{\"token\": \"" + token + "\"}").build();
         }
-        return Response.status(Response.Status.UNAUTHORIZED).build();
+        return Response.status(Response.Status.UNAUTHORIZED).entity("{\"error\": \"Invalid credentials\"}").build();
     }
 }
