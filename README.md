@@ -57,10 +57,15 @@ Ensure PostgreSQL is running and create a database named contacts_db.
 Update the application.properties file with your database credentials:
 
 properties
+
 quarkus.datasource.db-kind=postgresql
+
 quarkus.datasource.username=myuser
+
 quarkus.datasource.password=pass
+
 quarkus.datasource.jdbc.url=jdbc:postgresql://localhost:5432/contacts_db
+
 quarkus.hibernate-orm.database.generation=update
 
 4. **Build and run the backend:**
