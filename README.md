@@ -2,7 +2,7 @@
 
 ## Overview
 
-ContactsApp is a simple full-stack application for managing contacts. It includes a backend service built with Java, Quarkus, and PostgreSQL, and a frontend built with TypeScript and React.
+ContactsApp is a simple full-stack application for managing contacts. It includes a backend service built with Java, Quarkus, and PostgreSQL.
 
 ## Features
 
@@ -24,20 +24,12 @@ ContactsApp is a simple full-stack application for managing contacts. It include
 - **Security:** Quarkus Elytron Security
 - **Build Tool:** Gradle
 
-### Frontend
-
-- **Language:** TypeScript
-- **Framework:** Angular/React
-- **Build Tool:** npm/yarn
-- **Styling:** Simple CSS
-
 ## Setup and Running the Application
 
 ### Prerequisites
 
 - Java 17
 - PostgreSQL
-- Node.js and npm/yarn
 
 ### Backend
 
