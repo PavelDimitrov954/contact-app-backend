@@ -50,6 +50,10 @@ public class ContactService {
      */
     @Transactional
     public Contact createContact(Contact contact) {
+        if (contact.id != null && contact.id != 0) {
+            // Avoid persisting an entity with an existing ID
+            throw new IllegalArgumentException("Cannot create contact with an existing ID");
+        }
         repository.persist(contact);
         return contact;
     }
@@ -66,9 +70,12 @@ public class ContactService {
         if (existing == null) {
             return Optional.empty();
         }
-        contact.id = id;  // Ensure the ID remains the same
-        Contact updated = repository.getEntityManager().merge(contact);
-        return Optional.of(updated);
+        existing.firstName = contact.firstName;
+        existing.lastName = contact.lastName;
+        existing.phoneNumber = contact.phoneNumber;
+        existing.emailAddress = contact.emailAddress;
+        repository.persist(existing); // Use persist here to update the existing contact
+        return Optional.of(existing);
     }
 
     /**
