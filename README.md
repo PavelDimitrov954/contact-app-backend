@@ -44,7 +44,7 @@ ContactsApp is a simple full-stack application for managing contacts. It include
 1. **Clone the repository:**
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/PavelDimitrov954/contact-app-backend.git
    cd ContactsApp
 
    
