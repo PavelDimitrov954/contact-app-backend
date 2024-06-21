@@ -10,12 +10,20 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
+/**
+ * Service class for handling business logic related to contacts.
+ */
 @ApplicationScoped
 public class ContactService {
 
     @Inject
     ContactRepository repository;
 
+    /**
+     * List all contacts, optionally filtered by a search term.
+     * @param filter Optional filter for full-text search.
+     * @return List of contacts.
+     */
     public List<Contact> listAllContacts(String filter) {
         if (filter == null || filter.isEmpty()) {
             return repository.listAll();
@@ -26,16 +34,32 @@ public class ContactService {
         }
     }
 
+    /**
+     * Get a contact by ID.
+     * @param id The ID of the contact.
+     * @return An optional containing the contact if found.
+     */
     public Optional<Contact> getContactById(Long id) {
         return Optional.ofNullable(repository.findById(id));
     }
 
+    /**
+     * Create a new contact.
+     * @param contact The contact to create.
+     * @return The created contact.
+     */
     @Transactional
     public Contact createContact(Contact contact) {
         repository.persist(contact);
         return contact;
     }
 
+    /**
+     * Update an existing contact.
+     * @param id The ID of the contact to update.
+     * @param contact The updated contact data.
+     * @return An optional containing the updated contact if found.
+     */
     @Transactional
     public Optional<Contact> updateContact(Long id, Contact contact) {
         Contact existing = repository.findById(id);
@@ -47,6 +71,11 @@ public class ContactService {
         return Optional.of(updated);
     }
 
+    /**
+     * Delete a contact by ID.
+     * @param id The ID of the contact to delete.
+     * @return True if the contact was deleted, false if not found.
+     */
     @Transactional
     public boolean deleteContact(Long id) {
         Contact existing = repository.findById(id);

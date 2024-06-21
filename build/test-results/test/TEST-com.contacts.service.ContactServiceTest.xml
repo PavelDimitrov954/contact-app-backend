@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.contacts.service.ContactServiceTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2024-06-21T09:30:22" hostname="PCs-MacBook-Air.local" time="0.964">
+  <properties/>
+  <testcase name="testDeleteContactFound()" classname="com.contacts.service.ContactServiceTest" time="0.916"/>
+  <testcase name="testUpdateContactFound()" classname="com.contacts.service.ContactServiceTest" time="0.006"/>
+  <testcase name="testGetContactByIdNotFound()" classname="com.contacts.service.ContactServiceTest" time="0.004"/>
+  <testcase name="testGetContactByIdFound()" classname="com.contacts.service.ContactServiceTest" time="0.005"/>
+  <testcase name="testListAllContactsWithFilter()" classname="com.contacts.service.ContactServiceTest" time="0.003"/>
+  <testcase name="testDeleteContactNotFound()" classname="com.contacts.service.ContactServiceTest" time="0.004"/>
+  <testcase name="testCreateContact()" classname="com.contacts.service.ContactServiceTest" time="0.006"/>
+  <testcase name="testListAllContactsNoFilter()" classname="com.contacts.service.ContactServiceTest" time="0.003"/>
+  <testcase name="testUpdateContactNotFound()" classname="com.contacts.service.ContactServiceTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

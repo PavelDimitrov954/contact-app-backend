@@ -5,6 +5,10 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 
 import javax.persistence.Entity;
+
+/**
+ * Entity class representing a contact.
+ */
 @Data
 @Entity
 @EqualsAndHashCode(callSuper = false)
